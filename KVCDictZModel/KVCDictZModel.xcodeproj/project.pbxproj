@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04155A9C1F1AF2C10027EAF6 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04155A9B1F1AF2C10027EAF6 /* BaseModel.m */; };
 		04155AA21F1AF4510027EAF6 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 04155AA11F1AF4510027EAF6 /* Model.m */; };
 		04155AA51F1AFE330027EAF6 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 04155AA41F1AFE330027EAF6 /* Book.m */; };
 		04155AAE1F1B13940027EAF6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 04155AAD1F1B13940027EAF6 /* Person.m */; };
+		04155AB81F1B44050027EAF6 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04155AB71F1B44050027EAF6 /* BaseModel.m */; };
 		9373310C1EB97A2300C81823 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9373310B1EB97A2300C81823 /* main.m */; };
 		9373310F1EB97A2300C81823 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9373310E1EB97A2300C81823 /* AppDelegate.m */; };
 		937331121EB97A2300C81823 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937331111EB97A2300C81823 /* ViewController.m */; };
@@ -39,14 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04155A9A1F1AF2C10027EAF6 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		04155A9B1F1AF2C10027EAF6 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		04155AA01F1AF4510027EAF6 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		04155AA11F1AF4510027EAF6 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		04155AA31F1AFE330027EAF6 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		04155AA41F1AFE330027EAF6 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		04155AAC1F1B13940027EAF6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		04155AAD1F1B13940027EAF6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		04155AB61F1B44050027EAF6 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		04155AB71F1B44050027EAF6 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		937331071EB97A2200C81823 /* KVCDictZModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVCDictZModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9373310B1EB97A2300C81823 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9373310D1EB97A2300C81823 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,13 +90,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04155AB01F1B38CE0027EAF6 /* BaseModel */ = {
+		04155AB51F1B44050027EAF6 /* BaseModel */ = {
 			isa = PBXGroup;
 			children = (
-				04155A9A1F1AF2C10027EAF6 /* BaseModel.h */,
-				04155A9B1F1AF2C10027EAF6 /* BaseModel.m */,
+				04155AB61F1B44050027EAF6 /* BaseModel.h */,
+				04155AB71F1B44050027EAF6 /* BaseModel.m */,
 			);
-			name = BaseModel;
+			path = BaseModel;
 			sourceTree = "<group>";
 		};
 		937330FE1EB97A2200C81823 = {
@@ -122,7 +122,7 @@
 		937331091EB97A2300C81823 /* KVCDictZModel */ = {
 			isa = PBXGroup;
 			children = (
-				04155AB01F1B38CE0027EAF6 /* BaseModel */,
+				04155AB51F1B44050027EAF6 /* BaseModel */,
 				9373310D1EB97A2300C81823 /* AppDelegate.h */,
 				9373310E1EB97A2300C81823 /* AppDelegate.m */,
 				937331101EB97A2300C81823 /* ViewController.h */,
@@ -304,10 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04155A9C1F1AF2C10027EAF6 /* BaseModel.m in Sources */,
 				937331121EB97A2300C81823 /* ViewController.m in Sources */,
 				04155AAE1F1B13940027EAF6 /* Person.m in Sources */,
 				9373310F1EB97A2300C81823 /* AppDelegate.m in Sources */,
+				04155AB81F1B44050027EAF6 /* BaseModel.m in Sources */,
 				04155AA21F1AF4510027EAF6 /* Model.m in Sources */,
 				04155AA51F1AFE330027EAF6 /* Book.m in Sources */,
 				9373310C1EB97A2300C81823 /* main.m in Sources */,
